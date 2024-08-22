@@ -12,29 +12,23 @@
     ```
     ng serve
     ```
-  - Add bootstrap:
-    ```
-    npm install bootstrap --save
-    ```
+  
 
 - **Adding Components and Services**
   - Generate a component:
     ```
     ng generate component component-name
     ```
-  - Generate a service:
-    ```
-    ng generate service service-name
-    ```
+  
 
 - **Managing Dependencies with NPM**
   - Install all dependencies:
     ```
     npm install
     ```
-  - Install a specific package:
+  - Add bootstrap:
     ```
-    npm install package-name
+    npm install bootstrap --save
     ```
 
 ## Version Control with Git
