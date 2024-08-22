@@ -1,27 +1,62 @@
 # Week4tut
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
-## Development server
+## Setup and Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular Setup**
+  - Create a new Angular project:
+    ```
+    ng new project-name --routing
+    ```
+  - Serve the application:
+    ```
+    ng serve
+    ```
 
-## Code scaffolding
+- **Adding Components and Services**
+  - Generate a component:
+    ```
+    ng generate component component-name
+    ```
+  - Generate a service:
+    ```
+    ng generate service service-name
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Managing Dependencies with NPM**
+  - Install all dependencies:
+    ```
+    npm install
+    ```
+  - Install a specific package:
+    ```
+    npm install package-name
+    ```
 
-## Build
+## Version Control with Git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Initializing Repository and Making Commitments**
+  - Initialize Git:
+    ```
+    git init
+    ```
+  - Add files to staging area:
+    ```
+    git add .
+    ```
+  - Commit changes:
+    ```
+    git commit -m "Initial commit"
+    ```
 
-## Running unit tests
+- **Linking to Remote Repository**
+  - Add remote repository:
+    ```
+    git remote add origin https://github.com/yourusername/project-name.git
+    ```
+  - Push changes to GitHub:
+    ```
+    git push -u origin main
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
