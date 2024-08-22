@@ -12,6 +12,10 @@
     ```
     ng serve
     ```
+  - Add bootstrap:
+    ```
+    npm install bootstrap --save
+    ```
 
 - **Adding Components and Services**
   - Generate a component:
